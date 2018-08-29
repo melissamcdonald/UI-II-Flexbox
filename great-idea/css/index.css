@@ -73,9 +73,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+header {
+  display: flex;
+}
 
 header nav {
   display: flex;
+  justify-content: space-between;
   width: 691px;
   vertical-align: top;
   margin-top: 35px;
@@ -136,7 +140,7 @@ header .logo {
 }
 
 .cta img {
-  display: inline-block;
+  
   margin-top: 69px;
 }
 
@@ -147,12 +151,14 @@ header .logo {
 }
 
 .main-content .top-content {
+  display: flex;
   padding: 0 10px;
 }
 
 .main-content .top-content .text-content {
   width: 410px;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
   margin-right: 34px;
 }
 
@@ -165,11 +171,14 @@ header .logo {
 }
 
 .main-content .bottom-content {
+  display: flex;
   margin-top: 37px;
   padding: 0 10px;
 }
 
 .main-content .bottom-content .text-content {
+  display: flex;
+  flex-direction: column;
   width: 275px;
   display: inline-block;
   margin-right: 12px;
@@ -193,4 +202,12 @@ footer {
   margin: 32px 0;
   text-align: center;
   font-size: 14px;
+}
+
+
+
+/*Services Page Only*/
+
+.services-container h1 {
+  font-size: 25px;
 }
