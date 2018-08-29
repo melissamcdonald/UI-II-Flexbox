@@ -208,6 +208,31 @@ footer {
 
 /*Services Page Only*/
 
+
+
 .services-container h1 {
+  margin-top: 20px;
   font-size: 25px;
+  margin-bottom: 20px;
+  
+}
+
+.services-container p {
+  padding-bottom: 20px;
+  }
+
+.services-container .box-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid black;
+  border-bottom: solid black;
+}
+
+.services-container .box-container .box {
+  border: black solid 1px;
+  width: 420px;
+  margin: 20px 0px;
+  padding: 20px;
 }
