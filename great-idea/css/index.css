@@ -70,6 +70,7 @@ h1, h2, h3, h4, h5 {
   width: 880px;
   /* TB LR */
   margin: 0 auto;
+  
 }
 
 /* header */
@@ -228,13 +229,13 @@ footer {
   align-items: space-around;
   border-top: solid black;
   border-bottom: solid black;
-  padding: 60px auto;
+  padding: 40px 0px;
 }
 
 .services-container .box-container .box {
   border: black solid 1px;
   width: 420px;
-  margin: 20px 0px;
+  margin: 20px 0px; 
   padding: 20px;
   background-color: whitesmoke;
 }
