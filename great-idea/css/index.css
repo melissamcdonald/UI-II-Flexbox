@@ -225,9 +225,10 @@ footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: space-around;
   border-top: solid black;
   border-bottom: solid black;
+  padding: 60px auto;
 }
 
 .services-container .box-container .box {
@@ -235,4 +236,34 @@ footer {
   width: 420px;
   margin: 20px 0px;
   padding: 20px;
+  background-color: whitesmoke;
+}
+
+.services-container .box-container .box button {
+  padding: 12px 35px;
+  border-radius: 5px;
+  background-color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.services-container .box-container .box button:hover {
+  background-color: grey;
+  color: white;
+}
+
+.services-container .facts {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-container .facts .facts-text {
+  padding-right: 60px;
+}
+
+.services-container .facts ul {
+  list-style: square inside;
+  margin-left: 0;
+  padding-left: 0;
 }
